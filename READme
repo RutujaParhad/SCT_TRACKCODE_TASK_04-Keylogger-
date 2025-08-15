@@ -1,0 +1,17 @@
+# Basic Keylogger in Java
+
+## Description
+This project is a simple *educational keylogger* built in Java using the jnativehook library.  
+It captures keystrokes and logs them into a file named keylogs.txt.
+
+⚠ *Important:* This project is for *learning purposes only*. Do not use it for malicious activities.
+
+## Requirements
+- Java JDK 8+
+- jnativehook library: [Download here](https://github.com/kwhat/jnativehook/releases)
+
+## Installation & Usage
+1. Add jnativehook-x.x.x.jar to your Java project.
+2. Compile:
+   ```bash
+   javac -cp .;jnativehook-x.x.x.jar KeyLogger.java
