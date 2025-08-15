@@ -1,0 +1,19 @@
+---
+
+## *.gitignore*
+```gitignore
+# Compiled Java classes
+*.class
+
+# Log files
+*.log
+keylogs.txt
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
